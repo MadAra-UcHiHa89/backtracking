@@ -229,7 +229,7 @@ int main()
         }
 
         // Now setting the intermediate matrix as input matrix (i.e matrix due to the best possible move) // Also printing the intermedite matrix
-        cout<<"Intermediate matrix "<<fx+1<<endl;
+        cout<<"Intermediate matrix :"<<fx+1<<endl;
         for(int i=0;i<n;i++)
         {
             for(int j=0;j<n;j++)
