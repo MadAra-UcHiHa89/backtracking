@@ -99,7 +99,7 @@ int main()
     cout<<"Enter the sum"<<endl;
     cin>>sum;
     vector<int> solutionVector;
-    subSetSum(sum,0,numberOfElemenets,solutionVector,set);
+    subSetSum(set,numberOfElemenets-1,sum,solutionVector);
 
 // starting from the last element and moving to the first element in set and including & excluding the element hence passing last element;s index
     // subSetSum(set,numberOfElemenets-1,sum,solutionVector);
